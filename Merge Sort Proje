@@ -1,0 +1,8 @@
+Verilen dizi: [16, 21, 11, 8, 12, 22]
+
+Adım: [16, 21, 11] ve [8, 12, 22] olarak ikiye bölünür.
+Adım: [16] ve [21, 11] ile [8] ve [12, 22] olarak dört parçaya bölünür.
+Adım: [16] ve [11, 21] ile [8] ve [12, 22] olarak sıralanır.
+Adım: [11, 16, 21] ve [8, 12, 22] olarak birleştirilir.
+Adım: [8, 11, 12, 16, 21, 22] olarak sonuç elde edilir.
+Merge Sort'un Big-O gösterimi O(n log n)'dir. 
